@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Avatar?>
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <PasswordField layoutX="224.0" layoutY="256.0" promptText="senha" />
+      <Avatar layoutX="282.0" layoutY="60.0">
+         <image>
+            <Image url="@../../../../../../../../Downloads/user.png" />
+         </image>
+      </Avatar>
+      <TextField floatText="nome" layoutX="229.0" layoutY="124.0" />
+      <TextField floatText="login" layoutX="229.0" layoutY="186.0" />
+   </children>
+</Pane>
